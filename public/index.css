@@ -1,0 +1,71 @@
+input{
+	border-color: red;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+label{
+	font-family: 'Roboto', sans-serif;
+}
+#inputs{
+width: 500px;
+margin: 0 auto;
+padding: 20px;
+}
+.Mensagem{
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.numero{
+	font-size: 22px;
+	margin-bottom:15px;
+	padding-bottom: 3px;
+	height: 40px;
+}
+.numero.input{
+	padding-top: 3px;
+}
+
+.btn-primary{
+	display: block;
+	margin: 0 auto;
+}
+.Gerar{
+	width: 100px;
+	margin: 0 auto;
+	position: relative; right: 82px;
+}
+.Resultado{
+	font-size: 24px;
+	margin: 20px auto;
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	position: relative;
+}
+
+
+h1{
+		display: block;
+		margin: 0 auto;
+}
+#forma{
+	margin: 15px auto;
+	width: 40%;
+}
+.toast{
+	margin: 0 auto;
+}
+#botaoacessar{
+	position: absolute;
+	align-self: flex-end;
+}
+a:hover{
+	text-decoration: none;
+	color:white
+}
+a{
+	color:white;
+}

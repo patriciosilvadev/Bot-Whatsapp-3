@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Gerador de Links</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery.mask.min.js"></script>
+
+</head>
+
+<body>
+	<form id="forma">
+		<div class="form-group">
+			<label>Numero:</label>
+			<input type="text" class="form-control " id="nmr" placeholder="(DDD)+Numero">
+			<div class="valid-feedback">
+				Numero digitado corretamente
+			</div>
+			<div class="invalid-feedback">
+				O numero inválido.
+				<br> Por favor verifique o número digitado.
+			</div>
+		</div>
+		<div class="form-group">
+			<label>Mensagem:</label>
+			<input type="text" class="form-control" id="msg" placeholder="Digite Sua Mensagem">
+			<small style="margin-top:3px; color:#A4A4A4">*Campo opcional.</small>
+		</div>
+	</form>
+	<button type="submit" id="botao" class="btn btn-primary" onclick="capturar()">Gerar Link</button>
+	<form class="Resultado" method="POST" action="/bot">
+		<h1>Link Gerado:</h1>
+		<input type="text" class="form-control" id="copyy" placeholder="" name="linkGerado">
+		<button type="submit" id="botaoacessar" class="btn btn-primary"><a href="#" id="goto" target="_blank">Acessar
+				Link</button></a>
+		</input>
+		<a href="#" id=novoLink target="_blank"></a>
+	</form>
+
+	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000">
+		<div class="toast-header">
+			<img src="zap.png" class="rounded mr-2" alt="...">
+			<strong class="mr-auto" id="validacao-toast">Sucesso!</strong>
+			<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="toast-body">
+			Link copiado para area de transferencia
+		</div>
+	</div>
+
+	<script>
+		$("#nmr").mask("(00) 00000-0000")
+		var numero, mensagem;
+		function capturar() {
+			var numero = document.getElementById("nmr").value;
+			var mensagem = encodeURI(document.getElementById("msg").value);
+			var number = numero.replace(/\D/g, '');
+			var x = number.substring(0, 2)
+			var link = "https://wa.me/" + number + "?text=" + mensagem
+			if (x == 55) {
+				link = "https://wa.me/" + number + "?text=" + mensagem
+			}
+			else {
+				link = "https://wa.me/55" + number + "?text=" + mensagem
+			}
+			if (number.length != 11) {
+				link = ""
+				document.getElementById('nmr').setAttribute("class", "form-control is-invalid");
+			}
+			else {
+				document.getElementById('nmr').setAttribute("class", "form-control is-valid");
+				$('.toast').toast('show');
+			}
+			document.getElementById('copyy').innerHTML = link;
+			document.getElementById('goto').setAttribute("href", link);
+			document.getElementById('copyy').value = link;
+		};
+		$('#botao').click(function () {
+			$('#copyy').select();
+			document.execCommand('copy');
+		})
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
