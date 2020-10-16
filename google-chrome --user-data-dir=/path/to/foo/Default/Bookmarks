@@ -1,0 +1,40 @@
+{
+   "checksum": "38a822bddc469d93418d7d9de3f20e5f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13247349600846518",
+            "guid": "79701711-e6cc-4a5a-999e-7420c6e3a678",
+            "id": "5",
+            "name": "Browserify",
+            "type": "url",
+            "url": "http://browserify.org/"
+         } ],
+         "date_added": "13247349447048023",
+         "date_modified": "13247349600846518",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13247349447048025",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Outros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13247349447048026",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Favoritos de dispositivos móveis",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,15 @@
+2020/10/16-18:11:53.111 18ef0 Reusing MANIFEST /home/gabriel/Documentos/Bot-Whatsapp/myUserDataDir/Default/IndexedDB/https_pptr.dev_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-18:11:53.111 18ef0 Recovering log #4
+2020/10/16-18:11:53.112 18ef0 Reusing old log /home/gabriel/Documentos/Bot-Whatsapp/myUserDataDir/Default/IndexedDB/https_pptr.dev_0.indexeddb.leveldb/000004.log 
+2020/10/16-18:12:11.969 18feb Level-0 table #8: started
+2020/10/16-18:12:11.975 18feb Level-0 table #8: 731 bytes OK
+2020/10/16-18:12:11.978 18feb Delete type=0 #4
+2020/10/16-18:12:11.978 18feb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/16-18:12:11.978 18feb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0d\x00p\x00p\x00t\x00r\x00-\x00a\x00p\x00i\x00-\x00d\x00a\x00t\x00a' @ 76 : 0
+2020/10/16-18:12:11.978 18feb Compacting 1@1 + 1@2 files
+2020/10/16-18:12:11.980 18feb Generated table #9@1: 22 keys, 619 bytes
+2020/10/16-18:12:11.980 18feb Compacted 1@1 + 1@2 files => 619 bytes
+2020/10/16-18:12:11.982 18feb compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-18:12:11.983 18feb Delete type=2 #5
+2020/10/16-18:12:11.983 18feb Delete type=2 #8
+2020/10/16-18:12:11.983 18feb Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0d\x00p\x00p\x00t\x00r\x00-\x00a\x00p\x00i\x00-\x00d\x00a\x00t\x00a' @ 76 : 0 .. (end); will stop at (end)
