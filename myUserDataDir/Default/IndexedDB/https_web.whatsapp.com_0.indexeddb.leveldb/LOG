@@ -1,3 +1,12 @@
 2020/10/16-18:15:27.407 193ea Reusing MANIFEST /home/gabriel/Documentos/Bot-Whatsapp/myUserDataDir/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
 2020/10/16-18:15:27.407 193ea Recovering log #11
 2020/10/16-18:15:27.427 193ea Reusing old log /home/gabriel/Documentos/Bot-Whatsapp/myUserDataDir/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000011.log 
+2020/10/16-18:58:18.070 19f47 Level-0 table #16: started
+2020/10/16-18:58:18.104 19f47 Level-0 table #16: 1306059 bytes OK
+2020/10/16-18:58:18.106 19f47 Delete type=0 #11
+2020/10/16-18:58:23.923 19ad6 Compacting 1@1 + 1@2 files
+2020/10/16-18:58:23.999 19ad6 Generated table #17@1: 33374 keys, 1473770 bytes
+2020/10/16-18:58:23.999 19ad6 Compacted 1@1 + 1@2 files => 1473770 bytes
+2020/10/16-18:58:24.001 19ad6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-18:58:24.001 19ad6 Delete type=2 #16
+2020/10/16-18:58:24.001 19ad6 Delete type=2 #13
