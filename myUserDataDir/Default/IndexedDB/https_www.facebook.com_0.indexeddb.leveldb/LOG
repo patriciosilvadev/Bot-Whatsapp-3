@@ -1,0 +1,5 @@
+2020/10/16-18:19:06.657 19544 Reusing MANIFEST /home/gabriel/Documentos/Bot-Whatsapp/myUserDataDir/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-18:19:38.684 19587 Level-0 table #5: started
+2020/10/16-18:19:38.690 19587 Level-0 table #5: 1233 bytes OK
+2020/10/16-18:19:38.693 19587 Delete type=0 #3
+2020/10/16-18:19:38.695 19587 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

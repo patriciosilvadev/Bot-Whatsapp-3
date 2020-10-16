@@ -1,0 +1,40 @@
+{
+   "checksum": "5886423cce948ff6e8de01c4bc07122c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13247358686157521",
+            "guid": "37daefba-61af-4e78-ac30-cfb0e027b622",
+            "id": "5",
+            "name": "tylerburleigh/nike-buy-bot: A bot using Node.js / puppeteer that buys a Nike shoe when it drops",
+            "type": "url",
+            "url": "https://github.com/tylerburleigh/nike-buy-bot?fbclid=IwAR1cRWgZzzqEfrkr52PiP0d2Krw61BCCByOCvh_5kpCOJpazhJhQwgwPUpk"
+         } ],
+         "date_added": "13247356526744676",
+         "date_modified": "13247358686157521",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13247356526744677",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Outros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13247356526744679",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Favoritos de dispositivos móveis",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
