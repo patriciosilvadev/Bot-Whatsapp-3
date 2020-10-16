@@ -1,6 +1,9 @@
 # Bot-Whatsapp
 Envia fotos e mensagens automaticamente utilizando o Node+puppeteer
 
+#Rodando o projeto:
+yarn add express puppeteer,
+no terminal, na raiz do projeto digite node wpp.js
 
 rode o bot pelo cmd, com o google chrome fechado. 
 
