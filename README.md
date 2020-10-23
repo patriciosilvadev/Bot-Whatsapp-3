@@ -37,8 +37,12 @@ function called by getMessages (), receives the last chat message and checks if 
 receives a contact and looks it up in the contact list, when you find it opens his chat
 
 
-# Example searching and sending messages automatically
+# Example Looking contacts and sending messages automatically
 
 
 ![lightSend](https://user-images.githubusercontent.com/48760214/96987097-e9175f00-14f8-11eb-8696-16b1f70fcbdc.gif)
+
+# Example Looking for contact and sending image and message to him automatically
+
+![autoImage](https://user-images.githubusercontent.com/48760214/96988675-03ead300-14fb-11eb-92c7-b91e3a40d640.gif)
 
