@@ -33,5 +33,5 @@ _this function is usually only called when some change changes the gift, in the 
 - **automaticMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), lastMessage: String)**;
 function called by getMessages (), receives the last chat message and checks if there is any predefined dialog for the message, you can configure manual response routines in this function, while we do not have a front end.
 
-- **searchContact(page:page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), contact: String);** <br />
+- **searchContact(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), contact: String);** <br />
 receives a contact and looks it up in the contact list, when you find it opens his chat
