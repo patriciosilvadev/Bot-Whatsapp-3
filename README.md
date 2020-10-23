@@ -5,11 +5,11 @@
 - [ ] Contribute to the project =)
 
 # Running the project:
-- Being in the Bot-Whatsapp/Service directory with the [Node](https://nodejs.org/en/) installed on your machine, run the command **yarn** or **npm install** in your terminal to install the project dependencies.
+1. Being in the Bot-Whatsapp/Service directory with the [Node](https://nodejs.org/en/) installed on your machine, run the command **yarn** or **npm install** in your terminal to install the project dependencies.
 
-- In your terminal run the command **yarn dev** to start the bot.
+2. In your terminal run the command **yarn dev** to start the bot.
 
-- If is your first time running the project, you need scan the QR code in the browser
+3. If is your first time running the project, you need scan the QR code in the browser
 
 # Project settings:
 - To keep a whatsapp session open, I create a folder called **"myUserDataDir"** in the Service folder, where the user data of the browser that the bot is using will be, otherwise whatsapp-web will always ask for a QR Code for start a session.
