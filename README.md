@@ -35,3 +35,8 @@ function called by getMessages (), receives the last chat message and checks if 
 
 - **searchContact(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), contact: String);** <br />
 receives a contact and looks it up in the contact list, when you find it opens his chat
+
+
+# Example searching and sending messages automatically
+
+![sendTeste](https://user-images.githubusercontent.com/48760214/96983639-963ca800-14f6-11eb-9137-7db22ed52037.gif)
