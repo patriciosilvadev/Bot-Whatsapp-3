@@ -20,7 +20,7 @@
 - **pathImage**: path of the image you want to send
 
 # Actions
-- **sendMessage(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), message: string);** <br />
+- **sendMessage(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), message: String);** <br />
 writes and sends the string received in the current chat.
 
 - **sendImagem(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), pathImage: String, lyric: String);** <br />
