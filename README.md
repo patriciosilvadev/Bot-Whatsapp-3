@@ -39,4 +39,6 @@ receives a contact and looks it up in the contact list, when you find it opens h
 
 # Example searching and sending messages automatically
 
-![sendTeste](https://user-images.githubusercontent.com/48760214/96983639-963ca800-14f6-11eb-9137-7db22ed52037.gif)
+
+![lightSend](https://user-images.githubusercontent.com/48760214/96987097-e9175f00-14f8-11eb-8696-16b1f70fcbdc.gif)
+
