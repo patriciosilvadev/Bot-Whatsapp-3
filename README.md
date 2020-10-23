@@ -2,7 +2,7 @@
 - [x] Send messages and photos to one or several contacts automatically.
 - [x] Set automatic responses with the chatbot scheme.
 - [ ] Schedule a time for your messages to be sent.
-- [ ] Contribute to the project =)
+- [ ] Contribute with the project =)
 
 # Running the project:
 1. Being in the Bot-Whatsapp/Service directory with the [Node](https://nodejs.org/en/) installed on your machine, run the command **yarn** or **npm install** in your terminal to install the project dependencies.
