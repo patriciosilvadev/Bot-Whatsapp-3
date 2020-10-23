@@ -20,18 +20,18 @@
 - **pathImage**: path of the image you want to send
 
 # Actions
-- sendMessage(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), message: string);
+- **sendMessage(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), message: string);** <br />
 writes and sends the string received in the current chat.
 
-- sendImagem(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), pathImage: String, lyric: String);
+- **sendImagem(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), pathImage: String, lyric: String);** <br />
 receives the image path and its caption (optional) and sends the image in the current chat.
 
-- getMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page)); 
+- **getMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page));**<br />
 captures the messages of the current chat and calls the chatBot passing the last chat message as an argument. <br />
 _this function is usually only called when some change changes the gift, in the messages div, to check if the chatBot needs to answer something_
 
 - **automaticMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), lastMessage: String)**;
 function called by getMessages (), receives the last chat message and checks if there is any predefined dialog for the message, you can configure manual response routines in this function, while we do not have a front end.
 
-- searchContact(page:page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), contact: String); <br />
+- **searchContact(page:page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), contact: String);** <br />
 receives a contact and looks it up in the contact list, when you find it opens his chat
