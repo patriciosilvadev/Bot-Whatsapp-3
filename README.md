@@ -12,7 +12,7 @@
 - If is your first time running the project, you need scan the QR code in the browser
 
 # Project settings:
-- To keep a whatsapp session open, I create a folder called ** "myUserDataDir" ** in the Service folder, where the user data of the browser that the bot is using will be, otherwise whatsapp-web will always ask for a QR Code for start a session.
+- To keep a whatsapp session open, I create a folder called **"myUserDataDir"** in the Service folder, where the user data of the browser that the bot is using will be, otherwise whatsapp-web will always ask for a QR Code for start a session.
 
 ## In index.js we have some variables that define the behavior of the bot
 - **contacts**: an array that defines which contacts the automatic messages will be sent to, each index in the array is a contact, which may be the name saved in your phonebook or the desired contact number
@@ -25,7 +25,7 @@ writes and sends the string received in the current chat.
 - sendImagem(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page),pathImage:string, lyric:string);
 receives the image path and its caption (optional) and sends the image in the current chat.
 - getMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page)); 
-captures the messages of the current chat and calls the chatBot passing the last chat message as an argument.
+captures the messages of the current chat and calls the chatBot passing the last chat message as an argument. <br />
 _this function is usually only called when some change changes the gift, in the messages div, to check if the chatBot needs to answer something_
--automaticMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), lastMessage);
+- automaticMessages(page:[Page](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-page), lastMessage);
 function called by getMessages (), receives the last chat message and checks if there is any predefined dialog for the message, you can configure manual response routines in this function, while we do not have a front end.
