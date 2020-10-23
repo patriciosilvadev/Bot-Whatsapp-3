@@ -46,3 +46,7 @@ receives a contact and looks it up in the contact list, when you find it opens h
 
 ![autoImage](https://user-images.githubusercontent.com/48760214/96988675-03ead300-14fb-11eb-92c7-b91e3a40d640.gif)
 
+# Example of auto responses utilizing autobot feature
+
+![tesss](https://user-images.githubusercontent.com/48760214/96992830-cbe68e80-1500-11eb-8388-d417f80f06e1.gif)
+
